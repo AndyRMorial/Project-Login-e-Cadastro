@@ -1,0 +1,52 @@
+.app {
+  background-color: #205497;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #205497;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.user-info {
+  background-color: #205497;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
